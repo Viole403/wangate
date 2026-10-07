@@ -1,9 +1,9 @@
 {
-  "name": "backend",
+  "name": "api",
   "private": true,
   "scripts": {
-    "dev": "go run .",
-    "build": "go build -o bin/backend .",
+    "dev": "go run ./cmd/api",
+    "build": "go build -o bin/api ./cmd/api",
     "lint": "go vet ./...",
     "check-types": "go vet ./..."
   }
